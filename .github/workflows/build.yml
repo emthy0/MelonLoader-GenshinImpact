@@ -2,9 +2,9 @@ name: Build MelonLoader
 
 on:
   push:
-    branches: [ master, alpha-development, v0.6.0-rewrite ]
+    branches: [alpha-development, master]
   pull_request:
-    branches: [ master, alpha-development, v0.6.0-rewrite ]
+    branches: [ alpha-development, master ]
   workflow_dispatch:
 
 jobs:
